@@ -1,0 +1,14 @@
+.gradle/
+build/
+.idea/
+.vscode/
+*.iml
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+submission/
+*.pdf
+*.zip
