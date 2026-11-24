@@ -46,5 +46,4 @@ $env:AZURE_OPENAI_ENDPOINT = 'https://RESOURCE.openai.azure.com/'
 $env:AZURE_OPENAI_DEPLOYMENT = 'NAMA_DEPLOYMENT'
 .\gradlew.bat -Pprovider=azure bootRun --args='--spring.profiles.active=azure'
 ```
-Gabungkan dengan Bab 2 melalui `--spring.profiles.active=ollama,chapter2` atau `azure,chapter2`. Pilihan dependency provider adalah build-time; JAR default hanya berisi OpenAI. Jangan mengklaim alternatif sudah berjalan sebelum dicoba.
 
